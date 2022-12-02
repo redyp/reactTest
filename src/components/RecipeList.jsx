@@ -4,7 +4,7 @@ import axios from "axios"
 function RecipeList() {
     const [recipes, setRecipes] = useState([]);
     useEffect(() => {
-        const endpoint = "http://localhost:4000";
+        const endpoint = "  https://09bf-103-236-192-220.ap.ngrok.io";
         const headers = {
             "content-type": "application/json",
             "Authorization": "",
