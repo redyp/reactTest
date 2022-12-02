@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import EventList from './components/EventList';
 import Modal from './components/Modal';
+import RecipeList from './components/RecipeList';
 
 function App() {
     const eventList = [
@@ -28,6 +29,7 @@ function App() {
                 <button onClick={() => setShowModal(false)}>Close</button>
             </Modal>}
             <button onClick={() => setShowModal(true)}>Term and Service</button>
+            <RecipeList />
         </div>
     );
 }
